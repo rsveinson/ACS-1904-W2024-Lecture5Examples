@@ -45,7 +45,7 @@ public class Doctor extends Practitioner {
      * not the call to getFirstName() and getLastName(),
      * where do they come from ?
      * 
-     * Note that this is overriding the methof of the same name in Practitioner
+     * Note that this is overriding the method of the same name in Practitioner
      */
     @Override
     public String getName(){

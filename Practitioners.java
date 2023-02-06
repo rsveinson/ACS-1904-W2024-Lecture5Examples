@@ -17,6 +17,8 @@ public class Practitioners {
       practitioners.add(dr);
       practitioners.add(ph);
       
+      // but practitioners don't have all of the methods and/or fields
+      // of doctors or pharmacists
       // System.out.println(practitioners.get(2).getSpecialty());
       // System.out.println(dr.getSpecialty());
       
