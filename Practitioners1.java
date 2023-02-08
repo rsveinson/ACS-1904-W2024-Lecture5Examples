@@ -37,7 +37,7 @@ public class Practitioners1 {
        * with hierachic objects
        */
       Practitioner pDoc = new Doctor("Franz", "Klammer", "male", "Orthopedics");
-      Practitioner pPharm = new Pharmacist("Ayrton", "Senna", "male", "Neurology");
+      Practitioner pPharm = new Pharmacist("Ayrton", "Senna", "male", "Rio");
       //Doctor dPrac = new Practitioner("Olga", "Korbet", "female", "Cardiology");
       //Pharmacist pPrac = new Practitioner("Clara", "Hughs", "femal", "Balco");
       
@@ -49,8 +49,8 @@ public class Practitioners1 {
       //System.out.println(pPharm.getLocation());
       
       // now with casting
-      //System.out.println(pDoc.getSpecialty());
-      //System.out.println(pPharm.getLocation());      
+      System.out.println(((Doctor)pDoc).getSpecialty());
+      System.out.println(((Pharmacist)pPharm).getLocation());      
       
    }
 }
