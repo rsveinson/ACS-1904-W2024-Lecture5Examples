@@ -50,7 +50,7 @@ public class Doctor extends Practitioner {
      */
     @Override
     public String getName(){
-        //return "Dr. " + getFirstName() + " " + getLastName() + ", " + getSpecialty();
-        return "Dr. " + getName() + ", " + getSpecialty();
+        return "Dr. " + getFirstName() + " " + getLastName() + ", " + getSpecialty();
+        //return "Dr. " + getName() + ", " + getSpecialty();
     }
 }
