@@ -41,7 +41,7 @@ public class Practitioners {
        * seems like it should work too
       */ 
       System.out.println("Doctors have a getSpecialty method so.");
-      //System.out.print("Doctor: " + practitioners.get(1).getFirstName());
+      System.out.print("Doctor: " + practitioners.get(1).getFirstName());
       //System.out.println(" " + practitioners.get(1).getSpecialty());
       
    }

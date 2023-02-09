@@ -50,6 +50,8 @@ public class Practitioners1 {
       
       // now with casting
       System.out.println(((Doctor)pDoc).getSpecialty());
+      //Doctor tempDr = (Doctor)pDoc;
+      
       System.out.println(((Pharmacist)pPharm).getLocation());      
       
    }

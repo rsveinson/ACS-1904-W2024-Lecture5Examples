@@ -25,6 +25,7 @@ public class Doctor extends Practitioner {
      * @param String lastName
      * @param String gender
      */
+    //public Practitioner(String firstName, String lastName, String gender)
     public Doctor(String firstName, String lastName, String gender, String specialty)     {
         // note call to superclass constructor
         super(firstName, lastName, gender);
@@ -49,6 +50,7 @@ public class Doctor extends Practitioner {
      */
     @Override
     public String getName(){
-        return "Dr. " + getFirstName() + " " + getLastName() + ", " + getSpecialty();
+        //return "Dr. " + getFirstName() + " " + getLastName() + ", " + getSpecialty();
+        return "Dr. " + getName() + ", " + getSpecialty();
     }
 }
