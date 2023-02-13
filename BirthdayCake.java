@@ -22,6 +22,7 @@ public class BirthdayCake extends Cake{
     // constructor with an implicit call to the super class
     // no-arg constructor
     public BirthdayCake(String shape, String message, int candles) {
+        // implicit call to superclass no-arg constructor
         this.shape = shape;
         this.message = message;
         this.candles = candles;
