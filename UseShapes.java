@@ -10,6 +10,7 @@ public static void main(String[] args) {
     
     System.out.println(s2.area());
     System.out.println(c2.area());
+    System.out.println(c3.area());
     
     shapes.add( new Square("S1", 5) );
     shapes.add( new Circle("C1", 5) );
