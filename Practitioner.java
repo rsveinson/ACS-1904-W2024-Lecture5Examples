@@ -1,18 +1,18 @@
 public class Practitioner {
     private String firstName;
     private String lastName;
-    private String gender;
+    private String sign;
     
     // no argument constructor
     public Practitioner()     {
-        firstName = lastName = gender  = "unknown";
+        firstName = lastName = sign  = "unknown";
     }
     
     // full argument  constructor
-    public Practitioner(String firstName, String lastName, String gender)     {
+    public Practitioner(String firstName, String lastName, String sign)     {
         this.firstName = firstName;
         this.lastName  = lastName;
-        this.gender    = gender;
+        this.sign    = sign;
     }
     
     // getters
@@ -22,8 +22,8 @@ public class Practitioner {
     public String getLastName(){
         return lastName;
     }
-    public String getGender(){
-        return gender;
+    public String getSign(){
+        return sign;
     }
     
     // setters
@@ -35,13 +35,13 @@ public class Practitioner {
         this.lastName = lastName;
     }
     
-    public void setGender(String gender){
-        this.gender = gender;
+    public void setGender(String sign){
+        this.sign = sign;
     }
     
     // other methods
     public String toString(){
-        return getName() + " " + gender;
+        return getName() + " " + sign;
     }
     
     public String getName(){
