@@ -5,9 +5,9 @@ public class Practitioners {
       ArrayList<Practitioner> practitioners = new ArrayList();
       
       // Create some practitioners
-      Practitioner pr = new Practitioner("Sam","Smith","female");
-      Doctor       dr = new Doctor("Jill","Jones","female","Dermatology");
-      Pharmacist   ph = new Pharmacist("Eddy","Edwards","male","Drugco");
+      Practitioner pr = new Practitioner("Sam","Smith","Virgo");
+      Doctor       dr = new Doctor("Jill","Jones","Cancer","Dermatology");
+      Pharmacist   ph = new Pharmacist("Eddy","Edwards","Draco","Drugco");
       
       /* add them to the list
        * no problem since doctors and pharmacists all have the "is a" relationship 

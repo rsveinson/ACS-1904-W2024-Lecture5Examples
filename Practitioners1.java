@@ -5,9 +5,9 @@ public class Practitioners1 {
       ArrayList<Practitioner> practitioners = new ArrayList();
       
       // Create some practitioners
-      Practitioner pr = new Practitioner("Sam","Smith","female");
-      Doctor       dr = new Doctor("Jill","Jones","female","Dermatology");
-      Pharmacist   ph = new Pharmacist("Eddy","Edwards","male","Drugco");
+      Practitioner pr = new Practitioner("Sam","Smith","Virgo");
+      Doctor       dr = new Doctor("Jill","Jones","Cancer","Dermatology");
+      Pharmacist   ph = new Pharmacist("Eddy","Edwards","Aries","Drugco");
       
       // add them to the arraylist
       practitioners.add(pr);
@@ -36,10 +36,10 @@ public class Practitioners1 {
        * some experiments
        * with hierachic objects
        */
-      Practitioner pDoc = new Doctor("Franz", "Klammer", "male", "Orthopedics");
-      Practitioner pPharm = new Pharmacist("Ayrton", "Senna", "male", "Rio");
-      //Doctor dPrac = new Practitioner("Olga", "Korbet", "female", "Cardiology");
-      //Pharmacist pPrac = new Practitioner("Clara", "Hughs", "femal", "Balco");
+      Practitioner pDoc = new Doctor("Franz", "Klammer", "Pisces", "Orthopedics");
+      Practitioner pPharm = new Pharmacist("Ayrton", "Senna", "Libra", "Rio");
+      //Doctor dPrac = new Practitioner("Olga", "Korbet", "Taurus", "Cardiology");
+      //Pharmacist pPrac = new Practitioner("Clara", "Hughs", "Gemini", "Balco");
       
       System.out.println(pDoc.getName());
       System.out.println(pPharm.getName());

@@ -23,12 +23,12 @@ public class Doctor extends Practitioner {
      * super class constructor arguments
      * @param String firstName
      * @param String lastName
-     * @param String gender
+     * @param String sign
      */
     //public Practitioner(String firstName, String lastName, String gender)
-    public Doctor(String firstName, String lastName, String gender, String specialty)     {
+    public Doctor(String firstName, String lastName, String sign, String specialty)     {
         // note call to superclass constructor
-        super(firstName, lastName, gender);
+        super(firstName, lastName, sign);
         this.specialty = specialty;
     }
     

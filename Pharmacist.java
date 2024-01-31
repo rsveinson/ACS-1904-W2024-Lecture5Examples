@@ -25,10 +25,10 @@ public class Pharmacist extends Practitioner{
      * @param String lastName
      * @param String gender
      */
-    public Pharmacist(String firstName, String lastName, String gender, String location)
+    public Pharmacist(String firstName, String lastName, String sign, String location)
     {
         // note the explicit call to a Practitioner constructor
-        super(firstName, lastName, gender);
+        super(firstName, lastName, sign);
         this.location = location;
     }
     
