@@ -19,7 +19,9 @@ public static void main(String[] args) {
     shapes.add(s2);
     shapes.add(c2);
     
-    for (Shape s: shapes) 
+    for (Shape s: shapes){ 
        System.out.println("area of " + s.toString() + " is " + s.area());
+       //System.out.println("area of " + s.toString() + " is " + s.area() + s.getLength());
+    }
     }
 }
