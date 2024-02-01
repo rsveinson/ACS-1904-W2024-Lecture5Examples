@@ -24,7 +24,7 @@ public abstract class Shape {
     
     // could also include concrete methods
     public String toString(){
-        return id;
-        //return id + " " + area();
+        //return id;
+        return id + " " + area();
     }
 }
