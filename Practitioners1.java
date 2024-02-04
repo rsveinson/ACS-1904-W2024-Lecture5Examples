@@ -5,9 +5,9 @@ public class Practitioners1 {
       ArrayList<Practitioner> practitioners = new ArrayList();
       
       // Create some practitioners
-      Practitioner pr = new Practitioner("Sam","Smith","Virgo");
-      Doctor       dr = new Doctor("Jill","Jones","Cancer","Dermatology");
-      Pharmacist   ph = new Pharmacist("Eddy","Edwards","Aries","Drugco");
+      Practitioner pr = new Practitioner("Sam","Smith","Prac222");
+      Doctor       dr = new Doctor("Jill","Jones","Doc111","Dermatology");
+      Pharmacist   ph = new Pharmacist("Eddy","Edwards","Pha222","Drugco");
       
       // add them to the arraylist
       practitioners.add(pr);
@@ -36,8 +36,8 @@ public class Practitioners1 {
        * some experiments
        * with hierachic objects
        */
-      Practitioner pDoc = new Doctor("Franz", "Klammer", "Pisces", "Orthopedics");
-      Practitioner pPharm = new Pharmacist("Ayrton", "Senna", "Libra", "Rio");
+      Practitioner pDoc = new Doctor("Franz", "Klammer", "Doc333", "Orthopedics");
+      Practitioner pPharm = new Pharmacist("Ayrton", "Senna", "Pha333", "Rio");
       //Doctor dPrac = new Practitioner("Olga", "Korbet", "Taurus", "Cardiology");
       //Pharmacist pPrac = new Practitioner("Clara", "Hughs", "Gemini", "Balco");
       
