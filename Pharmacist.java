@@ -41,4 +41,10 @@ public class Pharmacist extends Practitioner{
     public void setLocation(String location){
         this.location = location;
     }
+    
+    // others 
+    @Override
+    public String toString(){
+        return "hello!";
+    }
 }

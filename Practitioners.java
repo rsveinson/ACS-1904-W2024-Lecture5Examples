@@ -19,15 +19,19 @@ public class Practitioners {
       
       // but practitioners don't have all of the methods and/or fields
       // of doctors or pharmacists
-      // System.out.println(practitioners.get(2).getSpecialty());
-      // System.out.println(dr.getSpecialty());
+      Doctor doctor = (Doctor)practitioners.get(1);
+      System.out.println(doctor.getSpecialty());
+      //System.out.println(practitioners.get(2).getSpecialty());
+      
+      System.out.println(dr.getSpecialty());
       
       // iterate over the whole list
       for (Practitioner p: practitioners) {
          String type="practitioner";
          if (p instanceof Doctor) type="doctor";
          if (p instanceof Pharmacist) type="pharmacist";
-         System.out.println(type+" " + p.getFirstName());
+         //System.out.println(type+" " + p.getFirstName());
+         System.out.println(type+" " + p.getName());
       }
       
       /* Now watch this and see if you can make
