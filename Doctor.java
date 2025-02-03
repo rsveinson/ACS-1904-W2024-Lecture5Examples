@@ -25,7 +25,7 @@ public class Doctor extends Practitioner {
      * @param String lastName
      * @param String sign
      */
-    //public Practitioner(String firstName, String lastName, String gender)
+    //public Practitioner(String firstName, String lastName, String medID)
     public Doctor(String firstName, String lastName, String sign, String specialty)     {
         // note call to superclass constructor
         super(firstName, lastName, sign);
