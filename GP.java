@@ -4,7 +4,7 @@ import java.util.Scanner;
  * @author 
 */
 
-public class GP extends Doctor{
+public class GP{
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
