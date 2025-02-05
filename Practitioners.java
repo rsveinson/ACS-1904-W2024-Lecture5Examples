@@ -9,6 +9,13 @@ public class Practitioners {
       Doctor       dr = new Doctor("Jill","Jones","Doc111","Dermatology");
       Pharmacist   ph = new Pharmacist("Eddy","Edwards","Pha222","Drugco");
       
+      /* these two lines won't work
+       * beacause they don't follow the is A
+       * relationship of this hierarchy
+       */
+      //Doctor d2 = new Pharmacist();
+      //Doctor d2 = new Practitioner();
+      
       /* add them to the list
        * no problem since doctors and pharmacists all have the "is a" relationship 
        * with Practitioner
@@ -21,7 +28,7 @@ public class Practitioners {
       // of doctors or pharmacists
       Doctor doctor = (Doctor)practitioners.get(1);
       System.out.println(doctor.getSpecialty());
-      //System.out.println(practitioners.get(2).getSpecialty());
+      //System.out.println(practitioners.get(1).getSpecialty());
       
       System.out.println(dr.getSpecialty());
       
