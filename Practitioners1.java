@@ -31,28 +31,29 @@ public class Practitioners1 {
        */
       
       //practitioners.get(1).getSpecialty();
-      System.out.println(practitioners.get(1).getName());
-      /* *****
-       * some experiments
-       * with hierachic objects
-       */
+      //System.out.println(practitioners.get(1).getName());
+      // /* *****
+       // * some experiments
+       // * with hierachic objects
+       // */
       Practitioner pDoc = new Doctor("Franz", "Klammer", "Doc333", "Orthopedics");
       Practitioner pPharm = new Pharmacist("Ayrton", "Senna", "Pha333", "Rio");
       //Doctor dPrac = new Practitioner("Olga", "Korbet", "Taurus", "Cardiology");
       //Pharmacist pPrac = new Practitioner("Clara", "Hughs", "Gemini", "Balco");
       
-      System.out.println(pDoc.getName());
-      System.out.println(pPharm.getName());
+      //System.out.println(pDoc.getName());
+      //System.out.println(pPharm.getName());
       
-      // now methods from the sub-clases
-      //System.out.println(pDoc.getSpecialty());
+      //now methods from the sub-clases
+     //System.out.println(pDoc.getSpecialty());
       //System.out.println(pPharm.getLocation());
       
       // now with casting
-      //System.out.println(((Doctor)pDoc).getSpecialty());
+      System.out.println(((Doctor)pDoc).getSpecialty());
       Doctor tempDr = (Doctor)pDoc;
+      System.out.println(tempDr.getSpecialty());
       
-      System.out.println(((Pharmacist)pPharm).getLocation());      
+      // System.out.println(((Pharmacist)pPharm).getLocation());      
       
    }
 }

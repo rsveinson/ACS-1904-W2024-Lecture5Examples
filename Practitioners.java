@@ -15,6 +15,7 @@ public class Practitioners {
        */
       //Doctor d2 = new Pharmacist();
       //Doctor d2 = new Practitioner();
+      //Practitioner p1 = new Doctor();
       
       /* add them to the list
        * no problem since doctors and pharmacists all have the "is a" relationship 

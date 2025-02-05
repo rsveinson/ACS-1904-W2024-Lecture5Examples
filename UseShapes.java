@@ -3,6 +3,7 @@ public class UseShapes {
 public static void main(String[] args) {
     ArrayList<Shape> shapes = new ArrayList();
     
+    //Shape shape = new Shape();
     Square s2 = new Square("S2", 7);
     Circle c2 = new Circle("C2", 4);
     Shape c3 = new Circle("C3", 6);

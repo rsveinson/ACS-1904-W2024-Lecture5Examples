@@ -1,3 +1,10 @@
+/**
+ * The Practitioner class
+ * - the super-class for the practitioner hierarchy
+ * - contains fields and methods common to both
+ *      doctors and pharmasists
+ */
+
 public class Practitioner {
     private String firstName;
     private String lastName;

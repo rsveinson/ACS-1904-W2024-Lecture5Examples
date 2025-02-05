@@ -54,6 +54,7 @@ public class Doctor extends Practitioner {
         return "Dr. " + getFirstName() + " " + getLastName() + ", " + getSpecialty();
         //return "Dr. " + getName() + ", " + getSpecialty();
         //return "Dr. " + super.getName() + ", " + getSpecialty();
+        //return super.getName();
         //return "Dr. " + firstName + ", " + lastName;
     }
 }
