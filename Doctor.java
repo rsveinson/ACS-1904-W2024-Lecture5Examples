@@ -25,10 +25,10 @@ public class Doctor extends Practitioner {
      * @param String lastName
      * @param String sign
      */
-    //public Practitioner(String firstName, String lastName, String gender)
-    public Doctor(String firstName, String lastName, String sign, String specialty)     {
+    //public Practitioner(String firstName, String lastName, String medID)
+    public Doctor(String firstName, String lastName, String id, String specialty)     {
         // note call to superclass constructor
-        super(firstName, lastName, sign);
+        super(firstName, lastName, id);
         this.specialty = specialty;
     }
     
@@ -43,7 +43,7 @@ public class Doctor extends Practitioner {
     }
     
     /* other methods specific to this class
-     * not the call to getFirstName() and getLastName(),
+     * note the call to getFirstName() and getLastName(),
      * where do they come from ?
      * 
      * Note that this is overriding the method of the same name in Practitioner

@@ -9,7 +9,7 @@ public class Practitioner {
     }
     
     // full argument  constructor
-    public Practitioner(String firstName, String lastName, String medID)     {
+    public Practitioner(String firstName, String lastName, String medID){
         this.firstName = firstName;
         this.lastName  = lastName;
         this.medID    = medID;

@@ -28,8 +28,10 @@ public class Pharmacist extends Practitioner{
     public Pharmacist(String firstName, String lastName, String sign, String location)
     {
         // note the explicit call to a Practitioner constructor
+        // note the line calling the super-class constructor must come first
         super(firstName, lastName, sign);
         this.location = location;
+        //super(firstName, lastName, sign);
     }
     
     // getters specific to this class
