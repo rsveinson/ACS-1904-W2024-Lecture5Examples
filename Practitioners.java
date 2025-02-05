@@ -46,7 +46,7 @@ public class Practitioners {
        */
       System.out.println("\n***** Make some space *****");
       System.out.println("Doctors have a getSpecialty method so.");
-      System.out.println("Doctor: " + dr.getFirstName() + " " + dr.getSpecialty());
+      //System.out.println("Doctor: " + dr.getFirstName() + " " + dr.getSpecialty());
       
       /* but wait what if we do this
        * seems like it should work too
