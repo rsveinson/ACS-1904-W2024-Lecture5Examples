@@ -7,6 +7,7 @@ public static void main(String[] args) {
     Square s2 = new Square("S2", 7);
     Circle c2 = new Circle("C2", 4);
     Shape c3 = new Circle("C3", 6);
+    //Circle c3 = new Shape("cc", 4);
     //System.out.println(c3.getRadius());
     
     System.out.println(s2.area());
